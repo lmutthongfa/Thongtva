@@ -1,0 +1,106 @@
+html{
+	scroll-behavior: smooth;
+}
+body
+{
+	font-family: 'Concert One', cursive;
+}
+.infor-header h1
+{
+	font-size: 45px;
+}
+.infor-header h4
+{
+	font-size: 28px;
+}
+.infor-body
+{
+	margin-right: 10px;
+}
+.infor-body p
+{
+	font-size: 18px;
+	line-height: 0.7;
+}
+.infor-socail a
+{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	display: inline-block;
+	background-color: #444;
+	color: whitesmoke;
+	text-align: center;
+	border-radius: 50%;
+	margin-left: 10px;
+	transition: all 0.3s ease 0s;
+}
+.infor-socail a.facebook:hover
+{
+	background-color: #007bff;
+}
+.infor-socail a.instagran:hover
+{
+	background-color: lightblue;
+}
+.infor-socail a.youtube:hover
+{
+	background-color: red;
+}
+.infor-socail a.telegram:hover
+{
+	background-color: #0088cc;
+}
+section h2
+{
+	font-size: 32px;
+	font-weight: 700;
+	padding: 50px 0px;
+}
+.education p, .experience p{
+	margin: 0;
+	font-size: 17px;
+	font-weight: bold;
+}
+footer{
+	border-top: 1px solid;
+	margin-top: 5rem;
+	padding-top: 20px;
+}
+footer h4
+{
+	font-weight: 700;
+}
+footer .nav-link
+{
+	color: black;
+}
+footer .facebook:hover
+{
+	color: blue;
+}
+footer .youtube:hover
+{
+	color: red;
+}
+footer .instagram:hover
+{
+	color: lightblue;
+}
+footer .telegram:hover
+{
+	color:	rgb(0, 136, 204);
+}
+footer .twitter:hover
+{
+	color: rgb(0,172,238);
+}
+footer i
+{
+	margin-right: 5px;
+}
+footer p
+{
+	font-size: 12px;
+	font-weight: 600;
+}
